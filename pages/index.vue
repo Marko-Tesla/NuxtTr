@@ -5,6 +5,8 @@
     subtitle="My first Nuxt blog ever"  
   )  
 
+  app-options
+
   post-list  
 </template>  
   
