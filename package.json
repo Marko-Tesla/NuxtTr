@@ -16,7 +16,8 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "reset-css": "^5.0.1"
+    "reset-css": "^5.0.1",
+    "vue-lottie": "^0.2.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.0",

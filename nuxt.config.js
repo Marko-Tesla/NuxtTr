@@ -41,10 +41,13 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/color-mode'
   ],
-
+  router: {
+		//middleware: "delay",
+	},
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['@nuxtjs/style-resources', '@nuxtjs/markdownit'],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+  //loading: '~/components/Loading/index.vue'
 }
