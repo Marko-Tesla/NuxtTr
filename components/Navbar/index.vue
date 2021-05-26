@@ -1,16 +1,16 @@
 <template lang="pug">  
 div.navbar
     nuxt-link(to="/")
-      | Home
+      | home
+    nuxt-link(to="/animations")
+      | animations 
     nuxt-link(to="/about")
-      | About 
-    nuxt-link(to="/contact")
-      | Contact 
+      | about 
 </template>  
 <style scoped>
 	.navbar {
         display: flex;
-		background: #0089a7;
+		background: black;
 		width: 100%;
 		padding: 1rem;
 		text-align: center;
@@ -22,12 +22,10 @@ div.navbar
 		text-decoration: none;
 		color: white;
 		margin-right: 1rem;
-		text-transform: uppercase;
         
 	}
 
 	.nuxt-link-exact-active {
-		border-bottom: 2px solid black;
-		padding-bottom: 8px;
+		border-bottom: 2px solid white;
 	}
 </style>

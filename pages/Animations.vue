@@ -43,6 +43,7 @@ export default Vue.extend({
     max-width: 1128px;
     min-height: 1000px;
     margin: auto;
+	margin-top: 50px;
 }
 .one{
     grid-area: 1/1;

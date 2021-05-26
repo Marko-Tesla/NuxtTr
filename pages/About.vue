@@ -1,10 +1,7 @@
 <template>
 	<section class="container">
-        <nuxt-link to="/">
-            Home
-        </nuxt-link>
 		<h1>
-            About
+            About(Work in progress...)
         </h1>
     </section>
 </template>
